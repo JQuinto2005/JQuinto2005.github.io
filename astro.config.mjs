@@ -6,7 +6,6 @@ import vercel from "@astrojs/vercel/serverless";
 
 export default defineConfig({
   site: 'https://JQuinto2005.github.io',
-  output: server,
   adapter: vercel({
     webAnalytics: {
       enabled: true,
