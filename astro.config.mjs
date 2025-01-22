@@ -5,6 +5,7 @@ import vercel from "@astrojs/vercel/serverless";
 // If you want to remove vercel from your project you can do npm uninstall vercel
 site: 'https://JQuinto2005.github.io',
 export default defineConfig({
+  output: "dist",
   adapter: vercel({
     webAnalytics: {
       enabled: true,
